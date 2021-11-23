@@ -83,6 +83,8 @@ def input_normalization(im, lab):
     return im, lab
 
 path = 'mhsma-dataset-master/mhsma/'
+#path is where your train data are
+#if it in same directory with this file then make path '/'
 
 im_train_raw, im_valid_raw, im_test_raw, \
 lab_train, lab_valid, lab_test = __init__.init(path)
